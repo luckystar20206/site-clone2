@@ -1,0 +1,130 @@
+.step-wrapper[data-v-86dcb490] {
+    animation-fill-mode: forwards;
+    overflow: hidden
+}
+
+.FadeIn[data-v-86dcb490] {
+    animation: FadeIn-86dcb490
+}
+
+.BounceInDown[data-v-86dcb490] {
+    animation: BounceInDown-86dcb490
+}
+
+.BounceInUp[data-v-86dcb490] {
+    animation: BounceInUp-86dcb490
+}
+
+.BounceInLeft[data-v-86dcb490] {
+    animation: BounceInLeft-86dcb490
+}
+
+.BounceInRight[data-v-86dcb490] {
+    animation: BounceInRight-86dcb490
+}
+
+@keyframes FadeIn-86dcb490 {
+    0% {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes BounceInDown-86dcb490 {
+    0% {
+        opacity: 0;
+        transform: translateY(-2000px)
+    }
+
+    60% {
+        transform: translateY(30px)
+    }
+
+    80% {
+        transform: translateY(-10px)
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+@keyframes BounceInUp-86dcb490 {
+    0% {
+        opacity: 0;
+        transform: translateY(2000px)
+    }
+
+    60% {
+        transform: translateY(-30px)
+    }
+
+    80% {
+        transform: translateY(10px)
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+@keyframes BounceInLeft-86dcb490 {
+    0% {
+        opacity: 0;
+        transform: translateX(-2000px)
+    }
+
+    60% {
+        transform: translateX(30px)
+    }
+
+    80% {
+        transform: translateX(-10px)
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+@keyframes BounceInRight-86dcb490 {
+    0% {
+        opacity: 0;
+        transform: translateX(2000px)
+    }
+
+    60% {
+        transform: translateX(-30px)
+    }
+
+    80% {
+        transform: translateX(10px)
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+#ImageBackground[data-v-86dcb490] {
+    bottom: 0;
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    right: 0;
+    z-index: -10
+}
+
+#ImageBackground img[data-v-86dcb490] {
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    width: 100%
+}
