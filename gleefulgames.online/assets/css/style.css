@@ -1,0 +1,139 @@
+/*default font for wtf lang*/
+@font-face {
+  font-family: "roboto-bold";
+  src: url("../../fonts/got/roboto-bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "roboto-regular";
+  src: url("../../fonts/got/roboto-regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "felixti";
+  src: url("../font/felixti.ttf") format("truetype");
+}
+
+body {
+  color: white;
+  font-family: "felixti";
+  text-shadow: black 0 0 5px !important;
+  /* letter-spacing: 2px; */
+}
+
+.cta {
+  font-family: "felixti";
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+#LoadBar .loading #progress{
+  background-color: #741713 !important;
+}
+#ImageGridParent .grid-container .grid-item .grid-label {
+  background-color: rgba(0, 0, 0, 0.75);
+  transform: translateY(-48px);
+  padding: 5px;
+}
+
+#ImageGridParent .grid-container .grid-item .grid-label h2 {
+  font-size: 32px !important;
+}
+
+#ImageGridParent .grid-container .grid-item:hover {
+  transform: scale(1.05);
+  transition: all 0.25s;
+}
+
+#ImageGridParent .grid-container .grid-item {
+  transition: all 0.25s;
+}
+#BrowserDetectionBoxCenter{
+  padding: 70px;
+}
+
+#ImageGridParent .grid-container .grid-title h1 {
+  font-size: 22px;
+  background: rgba(0, 0, 0, 0.45);
+  padding: 8px 15px;
+  display: inline-block;
+  text-shadow: black 0 3px 10px !important;
+}
+
+/* #ImageGridParent .grid-container .grid-footer h1 span:not(span span) { */
+#ImageGridParent .grid-container .grid-footer h1 {
+  background: rgba(0, 0, 0, 0.45);
+  padding: 8px 15px;
+  display: inline-block;
+}
+
+#ImageGridParent .grid-container .grid-title p {
+  font-size: 44px !important;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: black 0 3px 10px;
+}
+
+#ImageGridParent .grid-container .grid-title h1,
+#ImageGridParent .grid-container .grid-footer h1 {
+  font-size: 28px !important;
+}
+
+#StepCounter strong {
+  color: #fc9c05;
+}
+
+@media (max-width: 768px) {
+  #ImageGridParent .grid-container .grid-item .grid-label h2 {
+    font-size: 25px !important;
+  }
+
+  #ImageGridParent .grid-container .grid-item .grid-label {
+    transform: translateY(-39px);
+  }
+}
+
+@media (min-width: 575.99px) {
+  .button-wrapper {
+    max-width: 450px !important;
+  }
+
+  .ru .button-wrapper,
+  .fi .button-wrapper {
+    max-width: 550px !important;
+  }
+
+  .ja .button-wrapper {
+    max-width: 595px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .ja .button-wrapper button {
+    font-size: 20px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .ja .button-wrapper button {
+    font-size: 12px !important;
+  }
+}
+
+/*default font for wtf lang*/
+.pl .grid-sub-label, #carousel-parent .carousel-wrapper .carousel-item .grid-label h3{
+  font-size: 12px !important;
+}
+.pl #DialogParent .DialogBox-text, .pl #TextGridParent .content-wrapper, .pl .title-wrapper, .pl .cta span, .pl #ImageGridParent .grid-container .grid-title, .pl .browser, .pl #BrowserDetectionParent{
+  font-family: "roboto-bold" !important;
+}
+.tr #DialogParent .DialogBox-text, .tr #TextGridParent .content-wrapper, .tr .title-wrapper, .tr .cta span, .tr #ImageGridParent .grid-container .grid-title, .tr .browser, .tr #BrowserDetectionParent{
+  font-family: "roboto-bold" !important;
+}
+.sk #DialogParent .DialogBox-text, .sk #TextGridParent .content-wrapper, .sk .title-wrapper, .sk .cta span, .sk #ImageGridParent .grid-container .grid-title, .sk .browser, .sk #BrowserDetectionParent{
+  font-family: "roboto-bold" !important;
+}
+.lt #DialogParent .DialogBox-text, .lt #TextGridParent .content-wrapper, .lt .title-wrapper, .lt .cta span, .lt #ImageGridParent .grid-container .grid-title, .lt .browser, .lt #BrowserDetectionParent{
+  font-family: "roboto-bold" !important;
+}
+.ru #DialogParent .DialogBox-text, .ru #TextGridParent .content-wrapper, .ru .title-wrapper, .ru .cta span, .ru #ImageGridParent .grid-container .grid-title, .ru .browser, .ru #BrowserDetectionParent{
+  font-family: "roboto-bold" !important;
+}
